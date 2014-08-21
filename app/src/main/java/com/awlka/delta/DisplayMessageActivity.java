@@ -29,10 +29,10 @@ public class DisplayMessageActivity extends Activity {
 
         setContentView(textView);
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment()).commit();
-        }
+//        if (savedInstanceState == null) {
+//            getSupportFragmentManager().beginTransaction()
+//                    .add(R.id.container, new PlaceholderFragment()).commit();
+//        }
     }
 
 
@@ -54,7 +54,7 @@ public class DisplayMessageActivity extends Activity {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_display_message, container, false);
+            View rootView = inflater.inflate(R.layout.activity_display_message, container, false);
             return rootView;
         }
 
