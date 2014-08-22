@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/DeltaBar</item>
+    </style>
+
+    <style name="DeltaBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background"></item>
+    </style>
+</resources>
