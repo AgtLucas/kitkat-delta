@@ -38,10 +38,10 @@ public class MyActivity extends Activity {
 //        }
 //        return super.onOptionsItemSelected(item);
         switch (item.getItemId()) {
-            case R.id.action_search;
+            case R.id.action_search:
                 openSearch();
                 return true;
-            case R.id.action_settings;
+            case R.id.action_settings:
                 openSettings();
                 return true;
             default:
@@ -54,6 +54,7 @@ public class MyActivity extends Activity {
 
     private void openSearch() {
     }
+
 
     public void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
